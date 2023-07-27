@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:a="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  a:layout_width="match_parent"
+  a:layout_height="match_parent"
+  a:orientation="vertical"
+  tools:ignore="HardcodedText">
+
+  <LinearLayout
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content"
+    a:orientation="vertical"
+    a:padding="10dp">
+
+    <TextView
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:text="Little Music Player"
+      a:textSize="40sp" />
+
+    <TextView
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:layout_marginTop="10dp"
+      a:text="How to use"
+      a:textSize="40sp" />
+
+    <TextView
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:text="From this app:"/>
+
+    <Button
+      a:id="@+id/file_opener"
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:layout_margin="10dp"
+      a:text="Open an audio"/>
+
+    <Button
+      a:id="@+id/folder_opener"
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:layout_margin="10dp"
+      a:text="Open a folder"
+      a:visibility="gone"/>
+
+    <TextView
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:text="From other apps:"/>
+
+    <TextView
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:text="1. Share an audio"/>
+
+    <TextView
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:text="2. Select Little Music Player"/>
+
+    <TextView
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:layout_marginTop="10dp"
+      a:text="You can control the playback via the notification."/>
+
+    <TextView
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:id="@+id/permissions"
+      a:layout_marginTop="10dp"
+      a:text="Permissions"
+      a:textSize="40sp"
+      a:visibility="gone"/>
+
+    <Button
+      a:id="@+id/notif_settings"
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:layout_margin="10dp"
+      a:text="Allow notifications for playback controls"
+      a:visibility="gone"/>
+
+    <Button
+      a:id="@+id/playlist_settings"
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:layout_margin="10dp"
+      a:text="Allow media file access to enable playlist"
+      a:visibility="gone"/>
+
+    <TextView
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:layout_marginTop="10dp"
+      a:text="Made By"
+      a:textSize="40sp"/>
+
+    <TextView
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:text="martinmimigames" />
+
+    <TextView
+      a:layout_width="match_parent"
+      a:layout_height="wrap_content"
+      a:text="Enjoy your audio!" />
+
+  </LinearLayout>
+</ScrollView>
